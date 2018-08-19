@@ -73,3 +73,7 @@ $ git push [remote] --force
 
 # 推送所有分支到远程仓库
 $ git push [remote] --all
+
+# 删除git关联
+$ rm -rf .git
+
