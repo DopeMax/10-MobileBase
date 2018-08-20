@@ -6,12 +6,15 @@ git init
 git remote add origin git@github.com:DopeMax/10-MobileBase.git
 git config user.name "DopeMax"
 git config user.email "amingccc@gmail.com"
+git pull origin master
 git add .
-git pull
+git commit -m '第一次提交'
 git push -u origin master
+
+
 git remote add origin https://github.com/DopeMax/10-MobileBase.git
 ssh -T git@github.com
-git pull origin master
+
 git push origin master
 git pull --rebase origin master
 git push -u origin master
